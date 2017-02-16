@@ -15,16 +15,16 @@ div.top
 }
 div.links
 {
+  float: left;
   width: 420px;
   height: 400px;
-  float: left;
   background: #6699ff;
 }
 div.rechts
 {
+  float: right;
   width: 420px;
   height: 400px;
-  float: right;
   background: #ccff66;
 }
 div.content
