@@ -1,0 +1,36 @@
+h1, h3
+{
+  text-align: center;
+  font-style: oblique;
+  font-family: : Georgia, arial;
+  font-size: 180%;
+  color: #ff0000;
+  }
+h2
+{
+  text-align: justify;
+  word-spacing: -0.2em;
+  letter-spacing: 0.1em;
+}
+h4
+{
+  text-align: center;;
+  font-size: 200%;
+  border: 1em /* #00ff00 */ solid;
+  border-color: #00ffff #ff66ff #cc3300 #9900ff;
+}
+body
+{
+  background: #000000;
+  background-image: url(../img/sky.jpg);
+  background-size: 100%;
+  /* background-size 20px 20px; */
+  /* background-repeat: no-repeat; */
+    /* NOTE:background-size 80px 60px als je die kleiner maken wil*/
+  }
+p
+{
+  color: #4700a5;
+  margin: 3% 3% 3% 3%;
+  background: #99ccff;
+}

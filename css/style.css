@@ -1,0 +1,72 @@
+div.container
+{
+  width: 1920px;
+  height: 1080px;
+  background: #dfeeee;
+}
+div.top
+{
+  width: 1920px;
+  height: 180px;
+  color: #cc0000;
+  background: #a3a3c2;
+  text-align: center;
+  font-size: 125%;
+}
+div.links
+{
+  width: 420px;
+  height: 400px;
+  float: left;
+  background: #6699ff;
+}
+div.rechts
+{
+  width: 420px;
+  height: 400px;
+  float: right;
+  background: #ccff66;
+}
+div.content
+{
+  width: 1080px;
+  height: 400px;
+  margin-left: 420px;
+  background-color: #4d0000;
+}
+div.onder
+{
+  width: 1920px;
+  height: 345px;
+  background: #9900ff;
+}
+div.css
+{
+  width: 1920px;
+  height: 155px;
+  background: #800000;
+}
+a:link
+{
+  font-weight: normal;
+  background: #00ff00;
+  text-decoration: underline;
+}
+a:visited
+{
+  font-weight: bolder;
+  color: #990000;
+  text-decoration: none;
+}
+a:hover
+{
+  font-weight: 200;
+  background: #ffff00;
+  text-decoration: underline;
+}
+a:active
+{
+  font-weight: 900;
+  background: #ffff66;
+  text-decoration: underline;
+}
