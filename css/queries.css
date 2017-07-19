@@ -1,0 +1,191 @@
+/* larger tabs to pc 1024px => 1200px*/
+@media only screen and (max-width: 1200px)
+{
+  .hero-text-box
+  {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .row
+  {
+    padding: 0 2%;
+  }
+}
+
+/* larger phones to tabs 768x => 1023px*/
+@media only screen and (max-width: 1023px)
+{
+  body
+  {
+    font-size: 16px;
+  }
+  section
+  {
+    padding: 60px 0;
+  }
+  .long-copy
+  {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .steps
+  {
+    margin-top: 10px;
+  }
+  .boxx
+  {
+    margin-bottom: 40px;
+  }
+  .how-to:last-of-type
+  {
+    margin-bottom: 60px;
+  }
+  .boxx:last-child
+  {
+    margin-top: 10px;
+  }
+  .app
+  {
+    width: 50%;
+  }
+  .icon-small
+  {
+    width: 14px;
+    margin-right: 3px;
+  }
+  .city-feature
+  {
+    font-size: 90%:
+  }
+  .plan-box
+  {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .plan-price
+  {
+    font-size: 240%;
+  }
+  .contact-form
+  {
+    width: 80%;
+  }
+  footer p
+  {
+    font-size: 10px;
+  }
+}
+
+/* larger phones 481px => 767px*/
+@media only screen and (max-width: 767px)
+{
+  body
+  {
+    font-size: 12px;
+  }
+  section
+  {
+    padding: 30px 0;
+  }
+  .row,
+  .hero-text-box
+  {
+    padding: 0 2%;
+  }
+  .col
+  {
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
+  .main-nav
+  {
+    display: none;
+  }
+  .mobile-nav-icon
+  {
+    display: inline-block;
+
+  }
+  .main-nav
+  {
+    float: left;
+    margin-top: 5px;
+    margin-left: 25px;
+  }
+  .main-nav li
+  {
+    display: block;
+  }
+  .main-nav li a:link,
+  .main-nav li a:visited
+  {
+    display: block;
+    border: 0;
+    padding: 10px 0;
+    font-size: 125%;
+  }
+  .main-nav .sticky
+  {
+    margin-top: 10px;
+  }
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited
+  {
+    padding: 10px 0;
+    /* color:#9cf3fb; */
+  }
+  .sticky .mobile-nav-icon
+  {
+    margin-top: 10px;
+  }
+  .long-copy
+  {
+    width: 100%;
+    margin-left: 0%;
+  }
+  h1
+  {
+    font-size: 180%;
+  }
+  h2
+  {
+    font-size: 150%;
+  }
+  .boxx
+  {
+    margin-bottom: 20px;
+  }
+  .how-to:last-of-type
+  {
+    margin-bottom: 20px;
+  }
+  .how-to div
+  {
+    height: 40px;
+    width: 40px;
+    padding: 4px;
+    margin-right: 15px;
+    font-size: 120%;
+  }
+  .boxx:first-child
+  {
+    text-align: center;
+  }
+  .app
+  {
+    width: 30%;
+  }
+}
+
+/* small phones 0px => 480px*/
+@media only screen and (max-width: 480px)
+{
+  section
+  {
+    padding: 25px 0;
+  }
+  .contact-form
+  {
+    width: 100%;
+  }
+}
